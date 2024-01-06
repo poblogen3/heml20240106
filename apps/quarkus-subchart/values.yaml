@@ -7,4 +7,4 @@ quarkus:
         enabled: true
     replicas: 1
   image:
-    name: docker.io/tomcat:10.1.17-jdk21-temurin-jammy
+    name: quay.io/openshiftroadshow/parksmap

@@ -24,7 +24,7 @@ spec:
         - name: deploy.route.tls.enabled
           value: "true"
         - name: image.name
-          value: registry.access.redhat.com/rhel7/rhel:7.9-1242-source
+          value: quay.io/openshiftroadshow/parksmap
     chart: quarkus
     repoURL: https://redhat-developer.github.io/redhat-helm-charts
     targetRevision: 0.0.3
